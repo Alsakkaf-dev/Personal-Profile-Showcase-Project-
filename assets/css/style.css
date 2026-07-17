@@ -77,3 +77,12 @@ body {
   background-color: var(--color-bg);
   -webkit-font-smoothing: antialiased;
 }
+
+/* Layout utilities
+   -------------------------------------------------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--space-lg);
+}
