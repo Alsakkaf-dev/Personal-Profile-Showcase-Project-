@@ -2,6 +2,18 @@
    Personal Profile Showcase
    ========================================================================== */
 
+/* Design tokens — color
+   -------------------------------------------------------------------------- */
+:root {
+  --color-bg: #fbfaf8;
+  --color-surface: #ffffff;
+  --color-text: #1a1c1e;
+  --color-text-muted: #5c6166;
+  --color-accent: #b4532a;
+  --color-accent-hover: #8f4021;
+  --color-border: #e3ded7;
+}
+
 /* Reset
    -------------------------------------------------------------------------- */
 *,
