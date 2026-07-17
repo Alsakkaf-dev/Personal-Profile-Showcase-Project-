@@ -387,6 +387,22 @@ textarea.field__control {
   }
 }
 
+/* Narrow viewports
+   -------------------------------------------------------------------------- */
+@media (max-width: 30em) {
+  .site-header__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+}
+
 .contact-form .button {
   align-self: flex-start;
 }
