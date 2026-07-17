@@ -1,0 +1,13 @@
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE state
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
