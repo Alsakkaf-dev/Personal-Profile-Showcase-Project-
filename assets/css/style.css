@@ -239,6 +239,12 @@ body {
 
 /* Experience timeline
    -------------------------------------------------------------------------- */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
 .milestone {
   padding: var(--space-lg);
   background-color: var(--color-surface);
