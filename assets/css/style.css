@@ -346,6 +346,12 @@ textarea.field__control {
   min-height: 8rem;
 }
 
+.field__control:focus-visible {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgb(180 83 42 / 0.15);
+}
+
 .contact-form .button {
   align-self: flex-start;
 }
