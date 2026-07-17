@@ -31,6 +31,24 @@
   --leading-normal: 1.6;
 }
 
+/* Design tokens — spacing and layout
+   -------------------------------------------------------------------------- */
+:root {
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  --section-padding: var(--space-xl);
+  --container-max: 68rem;
+  --measure: 60ch;
+  --radius: 0.5rem;
+}
+
 /* Reset
    -------------------------------------------------------------------------- */
 *,
