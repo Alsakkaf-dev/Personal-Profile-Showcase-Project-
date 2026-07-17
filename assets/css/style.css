@@ -110,3 +110,28 @@ body {
   color: var(--color-text);
   text-decoration: none;
 }
+
+.site-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+  list-style: none;
+  padding: 0;
+}
+
+.site-nav__list a {
+  display: inline-block;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  padding-block: var(--space-2xs);
+  border-bottom: 2px solid transparent;
+  transition: color 150ms ease, border-color 150ms ease;
+}
+
+.site-nav__list a:hover,
+.site-nav__list a:focus-visible {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
