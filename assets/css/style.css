@@ -352,6 +352,29 @@ textarea.field__control {
   box-shadow: 0 0 0 3px rgb(180 83 42 / 0.15);
 }
 
+/* Site footer
+   -------------------------------------------------------------------------- */
+.site-footer {
+  padding-block: var(--space-xl);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.site-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-sm);
+}
+
+.site-footer a {
+  color: inherit;
+}
+
+.site-footer a:hover {
+  color: var(--color-accent);
+}
+
 .contact-form .button {
   align-self: flex-start;
 }
