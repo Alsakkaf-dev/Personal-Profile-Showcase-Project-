@@ -291,3 +291,21 @@ body {
 .skills > .skill {
   flex: 1 1 16rem;
 }
+
+.skill {
+  padding: var(--space-lg);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.skill__name {
+  font-size: var(--text-base);
+  font-weight: 600;
+  margin-bottom: var(--space-2xs);
+}
+
+.skill__note {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
