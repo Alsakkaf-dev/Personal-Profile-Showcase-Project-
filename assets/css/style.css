@@ -277,3 +277,17 @@ body {
   max-width: var(--measure);
   color: var(--color-text-muted);
 }
+
+/* Skills grid
+   -------------------------------------------------------------------------- */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+  list-style: none;
+  padding: 0;
+}
+
+.skills > .skill {
+  flex: 1 1 16rem;
+}
