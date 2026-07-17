@@ -375,6 +375,18 @@ textarea.field__control {
   color: var(--color-accent);
 }
 
+/* Tablet and up
+   -------------------------------------------------------------------------- */
+@media (min-width: 48em) {
+  :root {
+    --section-padding: var(--space-3xl);
+  }
+
+  .site-header__inner {
+    padding-block: var(--space-lg);
+  }
+}
+
 .contact-form .button {
   align-self: flex-start;
 }
